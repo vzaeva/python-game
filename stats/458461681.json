@@ -1,0 +1,48 @@
+{
+  "games": [
+    {
+      "date": "2026-06-10 14:15:09",
+      "category": "Марафон (все категории)",
+      "difficulty": "Сложный",
+      "score": 0,
+      "total": 32
+    },
+    {
+      "date": "2026-06-10 14:15:30",
+      "category": "🎯 И и Ы после Ц",
+      "difficulty": "Лёгкий",
+      "score": 0,
+      "total": 5
+    },
+    {
+      "date": "2026-06-10 14:15:52",
+      "category": "💫 Мер-Мир",
+      "difficulty": "Лёгкий",
+      "score": 3,
+      "total": 5
+    },
+    {
+      "date": "2026-06-10 14:25:53",
+      "category": "🗑️ Тер-Тир",
+      "difficulty": "Лёгкий",
+      "score": 5,
+      "total": 5
+    },
+    {
+      "date": "2026-06-10 14:27:46",
+      "category": "Марафон (все категории)",
+      "difficulty": "Сложный",
+      "score": 23,
+      "total": 32
+    },
+    {
+      "date": "2026-06-10 15:29:48",
+      "category": "🌱 Раст-Рост",
+      "difficulty": "Лёгкий",
+      "score": 10,
+      "total": 10
+    }
+  ],
+  "total_score": 41,
+  "games_count": 6
+}
