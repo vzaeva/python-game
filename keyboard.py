@@ -43,7 +43,7 @@ def get_categories_keyboard():
 
 
 def get_answer_keyboard(options):
-    """Клавиатура для ответов"""
+    """Клавиатура для ответов на лёгком уровне"""
     keyboard = VkKeyboard(one_time=True)
     for opt in options:
         keyboard.add_button(opt, color=VkKeyboardColor.PRIMARY)
@@ -56,4 +56,11 @@ def get_menu_keyboard():
     """Клавиатура для возврата в меню"""
     keyboard = VkKeyboard(one_time=True)
     keyboard.add_button("◀️ В главное меню", color=VkKeyboardColor.SECONDARY)
+    return keyboard
+
+
+def get_back_keyboard():
+    """Клавиатура с кнопкой выхода (для сложного уровня)"""
+    keyboard = VkKeyboard(one_time=True)
+    keyboard.add_button("◀️ Выйти в меню", color=VkKeyboardColor.SECONDARY)
     return keyboard

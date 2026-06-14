@@ -216,8 +216,50 @@
       "difficulty": "Лёгкий",
       "score": 4,
       "total": 10
+    },
+    {
+      "date": "2026-06-11 20:05:36",
+      "category": "❌ НЕ с существительными",
+      "difficulty": "Лёгкий",
+      "score": 10,
+      "total": 10
+    },
+    {
+      "date": "2026-06-11 20:20:51",
+      "category": "📖 Ь после шипящих",
+      "difficulty": "Лёгкий",
+      "score": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-06-11 20:33:35",
+      "category": "📖 Ь после шипящих",
+      "difficulty": "Лёгкий",
+      "score": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-06-11 20:34:09",
+      "category": "📖 Ь после шипящих",
+      "difficulty": "Лёгкий",
+      "score": 1,
+      "total": 10
+    },
+    {
+      "date": "2026-06-11 20:42:30",
+      "category": "Марафон (все категории)",
+      "difficulty": "Сложный",
+      "score": 1,
+      "total": 120
+    },
+    {
+      "date": "2026-06-11 20:43:14",
+      "category": "Марафон (все категории)",
+      "difficulty": "Сложный",
+      "score": 0,
+      "total": 120
     }
   ],
-  "total_score": 64,
-  "games_count": 31
+  "total_score": 78,
+  "games_count": 37
 }
