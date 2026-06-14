@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: vkbot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn web:app --workers 1 --threads 2 --timeout 0 --bind 0.0.0.0:$PORT
+    envVars:
+      - key: VK_TOKEN
+        sync: false
+      - key: VK_GROUP_ID
+        value: "238701001"
+      - key: TIME_LIMIT
+        value: "15"
+      - key: RUN_BOT_THREAD
+        value: "1"
